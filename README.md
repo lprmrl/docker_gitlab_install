@@ -68,7 +68,11 @@ sudo mkdir -p /data/docker/gitlab/var/run/docker.sock
   
   Стартуем:
 
-sudo docker-compose up -d --force-recreate && docker-compose ps
+sudo docker-compose -f docker-compose-deps.yml up -d
+
+
+
+#sudo docker-compose up -d --force-recreate && docker-compose ps
 Доступ к Gitlab из браузера через порт 8000 и через SSH через порт 8822 
 
 Узнать пароль для учетки root из web-панели GitLab:
