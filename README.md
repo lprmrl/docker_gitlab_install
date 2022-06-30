@@ -1,3 +1,43 @@
+sudo apt update
+sudo apt upgrade -y
+
+sudo bash
+apt install gitlab-runner -y
+apt install mysql-client -y
+
+
+gitlab-runner register
+#  https://gitlab.com/
+#  tocken  
+#
+#
+# shell
+systemctl start gitlab-runner
+systemctl status gitlab-runner
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # docker_gitlab_install
 
 sudo apt update
